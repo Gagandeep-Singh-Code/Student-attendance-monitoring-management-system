@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/header_file.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+</head>
+<body>
+  {% include "header.html" %}
+<div class="flex font-sans">
+    <div class="flex-none w-48 relative">
+      <img src="https://myviewboard.com/blog/wp-content/uploads/2020/08/MP0027-01-scaled.jpg" alt="image" class="absolute inset-0 w-full h-full object-cover" />
+    </div>
+    <form class="flex-auto p-6">
+      <div class="flex flex-wrap">
+        <h1 class="flex-auto text-2xl font-semibold text-slate-900">
+          Welcome to Student Attendance Monitoring Management System
+        </h1>
+        <div class="text-lg font-semibold text-slate-500">
+          By Gagandeep Singh
+        </div>
+        <div class="w-full flex-none text-sm font-medium text-slate-700 mt-2">
+          Select an option
+        </div>
+      </div>
+      <div class="flex space-x-4 mb-6 text-sm font-medium">
+        <div class="flex-auto flex space-x-4">
+          <form><button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="submit">
+            Options:
+          </form>
+          </button>
+          <form action="/attendance/"><button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">
+            Take attendance
+          </form>
+          </button>
+          <form action="/addrecord/"><button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="submit">
+            Add student record
+          </form>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div align="center"> 
+    <p class="text-sm text-slate-700">
+        Have a great day ahead!
+    </p>
+  </div>
+</body>
+</html>
