@@ -76,3 +76,7 @@ When identifying a person in the image for attendance, the corresponding person 
 The below image shows the final report generated.
 
 ![FinalReport](https://user-images.githubusercontent.com/73172200/154812470-f723e2aa-9497-4922-bbe8-75b3197b56da.PNG)
+
+The below image shows the resource group "Project" and all the resource created under it.
+
+![Project-ResourceGroup](https://user-images.githubusercontent.com/73172200/154812788-9d019832-0a04-4d61-8a5a-b97068643706.PNG)
